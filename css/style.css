@@ -1,0 +1,34 @@
+body {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     margin: 0;
+     background-color: #f8f9fa;
+ }
+
+ #clock {
+     font-size: 2em;
+     border: 2px solid red;
+     border-radius: 10px;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     display: inline-block;
+ }
+
+ .red-line {
+     border-right: 2px solid red;
+     height: 100%;
+     margin: 0 20px;
+ }
+
+ .bright {
+     font-weight: lighter;
+ }
+
+ .colon {
+     margin: 0 30px;
+ }
+
