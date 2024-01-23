@@ -28,6 +28,10 @@ The project is structured with the following main files:
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in a web browser.
 
+## Deployed Version
+
+Check out the deployed version on [Netlify](https://netlify-clock.netlify.app/).
+
 ## Styling
 
 The clock is styled using CSS with Bootstrap for a clean and responsive design. The bright styling of the AM period and the red line separator provide a visually appealing look.

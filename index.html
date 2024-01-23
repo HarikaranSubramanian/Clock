@@ -9,18 +9,23 @@
             crossorigin="anonymous">
         <title>Digital Clock</title>
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     </head>
-    <body>
+    <body class="bg-light">
 
-        <div class="container text-center">
-            <div id="clock">
-                <span id="hours"></span>
-                <span class="colon">:</span>
-                <span id="minutes"></span>
-                <span class="colon">:</span>
-                <span id="seconds"></span>
-                <span class="red-line"></span>
-                <span id="meridian"></span>
+        <div class="container text-center my-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div id="clock" class="bg-white p-3 rounded">
+                        <span id="hours"></span>
+                        <span class="colon">:</span>
+                        <span id="minutes"></span>
+                        <span class="colon">:</span>
+                        <span id="seconds"></span>
+                        <span class="red-line"></span>
+                        <span id="meridian"></span>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -29,10 +34,5 @@
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
             integrity="sha384-GLhlTQ8iK9tTQz1T+KktQhoI6tY/Z9fN+e18L+5z5ZC+TV2UO/gEXL/GpGd9NQs6"
             crossorigin="anonymous"></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-
     </body>
 </html>
